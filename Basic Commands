@@ -1,0 +1,27 @@
+main()
+{
+  print("ارسلان شبیر");;
+  print('Welcome');;
+  
+  String name='Abdul';
+  String name1='Ahad';
+  String name2='Modi';
+  
+  print("$name $name1 $name2");
+  print("\$");
+   
+  String cname= name+" "+name1+" "+name2;
+  print(cname);
+  
+  print("length of name is ${cname.length}");
+
+  print(cname.length);
+  int a = 22;
+  int b = 30;
+  int c=a+b;
+  print("A=$a, B=$c, C=A+B=$c");
+  print("sum of $a and $b is ${a+b}");
+  print(a.isOdd);
+  print(a.sign);
+  
+}
